@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>No es otro sitio acerca de mi</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="container">
+    <div class="nav-container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="mi logo" width="80">
+        </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio <span class="sr-only">(actual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#vides">Videos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#audios">Audios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galeria">Galería</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <section class="hero-section">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">No es <span class="subrayado">otro sitio</span> acerca de mi y de mis perros</h1>
+          <p class="lead"><a class="btn btn-primary btn-lg" href="#videos">Videos</a> <a class="btn btn-secondary btn-lg"  href="#audios">Audios</a></p>
+        </div>
+      </div>
+    </section>
+    <section id="videos" class="section video-section">
+      <h2>Mi perro Simón</h2>
+      <p class="lead"><span class="line"></span> Una pelicula sobre un perro de la misma raza, "Turner & Hooch".</p>
+      <iframe class="shadow p-3 mb-5 rounded" width="100%" height="600" src="https://www.youtube-nocookie.com/embed/Hb6TrCH3ZjE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section id="audios" class="section audio-section">
+      <h2>Música que me gusta <span class="line"></span> <span class="heading-text">Quieres escuchar?</span></h2>
+      <p class="lead">Si los ojos son la ventana al alma, la música es su voz.</p>
+      <div class="audio-container">
+        <ul class="audio-list list-group list-group-horizontal-md">
+          <li class="list-group-item">
+            <iframe src="https://open.spotify.com/embed/track/0v1Sz1MDcjfEPlZuflLkf1" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <p class="text-center">Una de mis canciones preferidas</p>
+          </li>
+          <li class="list-group-item">
+            <iframe src="https://open.spotify.com/embed/track/4fKhRRYn7F5shZItjJkPJU" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <p class="text-center">Me encanta trabajar mientras escucho esta canción</p>
+          </li>
+          <li class="list-group-item">
+            <iframe src="https://open.spotify.com/embed/track/0sUQj8SflMlJrqJE7Z4u9o" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <p class="text-center">Y por qué no le damos una change a la paz?</p>
+          </li>
+        </ul>
+        <p class="text-center"><a href="https://www.spotify.com/ar/" class="btn btn-primary">Escuchar más</a></p>
+      </div>
+    </section>
+    <section id="galeria" class="section galery-section">
+      <h2>Fotos y más fotos <span class="line"></span> <span class="heading-text">Los pasos a la felicidad</span></h2>
+      <div class="row">
+        <div class="col-6">
+          <h3>Cosas que me gustan</h3>
+          <ul class="lista-cosas">
+            <li><span>1</span> Pasar tiempo con mis perros</li>
+            <li><span>2</span> Estudiar para mejorar en mi trabajo</li>
+            <li><span>3</span> Ver series y películas</li>
+            <li><span>4</span> Leer</li>
+            <li><span>5</span> Escuchar música</li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <div class="imagenes">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/imagen-1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/imagen-2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/imagen-3.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="background-blue">
+    <div class="container">
+      <p class="text-center">No hay mucho más... gracias</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
